@@ -72,10 +72,10 @@ const main = async () => {
     lastName: "Th Great"
   }
 
-  const result = await userService.update(userToUpdate)*/
+  const result = await userService.update(userToUpdate)
 
 
-  console.info(result)
+  console.info(result)*/
 
 
 };
