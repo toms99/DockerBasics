@@ -70,9 +70,9 @@ const main = async () => {
     id: "5e9d8e3ac011104f096b33b2",
     firstName: "JohnUpdated",
     lastName: "Th Great"
-  }*/
+  }
 
-  const result = await userService.update(userToUpdate)
+  const result = await userService.update(userToUpdate)*/
 
 
   console.info(result)
