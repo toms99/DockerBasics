@@ -64,13 +64,13 @@ const main = async () => {
   const resutl = await userService.create(newUser)
   console.info(resutl)
 
-  console.info("Updating user")
+  /*console.info("Updating user")
 
   const userToUpdate = {
     id: "5e9d8e3ac011104f096b33b2",
     firstName: "JohnUpdated",
     lastName: "Th Great"
-  }
+  }*/
 
   const result = await userService.update(userToUpdate)
 
