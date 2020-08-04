@@ -1,6 +1,10 @@
 # DockerBasics
  Un PoC para Docker y Docker compose. Implementa NodeJS, MongoDB, Express, Mongoose, Apache HTTP.
  
+ ### Resumen
+ 
+ Este repositorio permite levantar tres containers: apache HTTPS, custom-made NodeJS app y una base de datos con MongoDB. Estos están definidos en el archivo `docker-compose.yml` y cada servicio se llama: webserver, node-app y mongo respectivamente.
+ 
  ### Comandos de la consola
 
 Para correr los containers se debe abrir una terminal en el directorio donde se encuentre el proyecto y ejecutar los siguientes comandos:
@@ -15,9 +19,6 @@ Por instalada la aplicación, basta con crear una nueva conexión al puerto 2710
 El código para las acciones de CRUD de la base de datos está implementado, aunque la tarea que ejecutará al correr por primera vez será únicamente crear un nuevo usuario y retornar la base de datos actual. 
 
 Si desea efectuar las acciones restantes para CRUD solamente se necesita descomentar el código correspondiente a la acción en el archivo index.mjs.
-
-
-
 
 
 
